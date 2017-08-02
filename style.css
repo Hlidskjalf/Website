@@ -1,0 +1,90 @@
+.head {
+  width:100%;
+  background-image:url("motherboard2.png");
+  background-position: center;
+  height:500px;
+}
+
+p {
+  margin-right:170px;
+  margin-left:170px;
+}
+
+.title {
+  position:relative;
+  text-align:center;
+  padding:12px;
+  padding-top: 200px; 
+  color: #FFFFFF;
+  text-decoration: bold;
+  font-size:50px;
+}
+
+.body {
+  background-color:#FFFEEE;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+  float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.button {
+  position:relative;
+  border-radius:25px;
+  width:24.5%;
+  height:30px;
+}
+
+.line {
+  width:90%;
+  height:5px;
+}
+
+.catagories {
+  text-align:center;
+  font-size:30px;
+  line-height:5px;
+}
+
+.sites {
+  width:300px;
+}
+
+.form {
+  border-radius:25px;
+}
+
+.foot {
+  height:30px;
+  background-color:#887;
+  text-align:center;
+  padding:17px;
+}
+
+.contact {
+  color:#000000;
+}
